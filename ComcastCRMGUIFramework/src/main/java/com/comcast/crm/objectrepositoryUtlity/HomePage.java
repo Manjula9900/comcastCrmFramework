@@ -26,6 +26,16 @@ public class HomePage {
 	private WebElement adminImg;
 	@FindBy(linkText = "Sign Out")
 	private WebElement signoutlink;
+	@FindBy(linkText = "Products")
+	private WebElement productslink;
+
+	public WebElement getProductslink() {
+		return productslink;
+	}
+
+	public void setProductslink(WebElement productslink) {
+		this.productslink = productslink;
+	}
 
 	public WebElement getOrgLink() {
 		return orgLink;
